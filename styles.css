@@ -39,3 +39,7 @@ table {
   background: red;
   border-collapse: collapse;
 }
+
+img {
+  width: 55%;
+}
