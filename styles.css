@@ -6,30 +6,42 @@ body {
 }
 
 h1 {
-  color: #FF4242;
+  color: #ff4242;
   font-family: monaco;
   text-shadow: 1.5px 1.5px #ffffff;
 }
 
 h2 {
-  color: #FFFF00;
+  color: #ffff00;
   font-family: monaco;
   text-shadow: 1.5px 1.5px #ff0000;
 }
 
-a {
+#not-hidden {
   color: #dddd00;
 }
 
-a:hover {
+#not-hidden:hover {
   color: #00dd00;
+}
+
+#hidden-one, #hidden-two {
+  color: #ffff00;
+  font-family: monaco;
+  text-shadow: 1.5px 1.5px #ff0000;
+  text-decoration: none;
+}
+
+#hidden-one:hover, #hidden-two:hover {
+  color: #ff0000;
+  text-shadow: 1.5px 1.5px #ffff00;
 }
 
 table, th, td {
   border: 1px solid white;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(to bottom, rgb(8,28,197), rgb(10,33,232));
+  background: linear-gradient(to bottom, #081cc5, #0a21e8);
 }
 
 th {
