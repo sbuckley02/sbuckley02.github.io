@@ -5,10 +5,16 @@ body {
   font-family: tahoma;
 }
 
-h1 {
+#the-title {
   color: #ff4242;
   font-family: monaco;
   text-shadow: 1.5px 1.5px #ffffff;
+  text-decoration: none;
+}
+
+#the-title:hover {
+  color: #ffffff;
+  text-shadow: 1.5px 1.5px #ff4242;
 }
 
 h2 {
