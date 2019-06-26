@@ -8,11 +8,13 @@ body {
 h1 {
   color: #FF4242;
   font-family: monaco;
+  text-shadow: 1.5px 1.5px #ffffff;
 }
 
 h2 {
   color: #FFFF00;
   font-family: monaco;
+  text-shadow: 1.5px 1.5px #ff0000;
 }
 
 a {
